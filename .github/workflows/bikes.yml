@@ -50,6 +50,7 @@ jobs:
         container-registry-url: ${{ secrets.CONTAINER_REGISTRY }}
         container-registry-username: rahulvmarathe
         container-registry-password: ${{ secrets.REGISTRY_PASSWORD }}
+        container-registry-email: 'rahulvmarathe@live.com'
         secret-name: ${{ secrets.IMAGE_PULL_SECRET }}
 
     - name: Create valid release-name
