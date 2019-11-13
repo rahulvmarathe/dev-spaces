@@ -48,7 +48,7 @@ jobs:
       with:
         namespace: ${{ steps.generate-child-space-name.outputs.result }}
         container-registry-url: ${{ secrets.CONTAINER_REGISTRY }}
-        container-registry-username: ${{ secrets.REGISTRY_USERNAME }}
+        container-registry-username: rahulvmarathe
         container-registry-password: ${{ secrets.REGISTRY_PASSWORD }}
         secret-name: ${{ secrets.IMAGE_PULL_SECRET }}
 
